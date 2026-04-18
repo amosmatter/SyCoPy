@@ -1,9 +1,3 @@
-if __name__ == "__main__":
-    from pathlib import Path
-    import sys
-
-    sys.path.append(Path(__file__).parents[1].as_posix())
-
 from typing import Dict, Tuple, Hashable, List, Self
 from core.system import SystemMorphism, GeneralSystem, ComposedMorphism, AtomicMorphism
 from sympy import Basic, Expr, Equality
